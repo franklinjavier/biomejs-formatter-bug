@@ -1,0 +1,17 @@
+{
+  "name": "vite-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "npx @biomejs/biome@1.5.0 check --apply .",
+    "format": "npx @biomejs/biome@1.5.0 format --write ."
+  },
+  "devDependencies": {
+    "vite": "^5.0.12",
+    "@biomejs/biome": "1.5.3"
+  }
+}
